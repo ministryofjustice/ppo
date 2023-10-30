@@ -42,6 +42,6 @@
         "scrollpoints": "^0.4.0",
         "url-search-params-polyfill": "^8.1.1",
         "vue-template-compiler": "^2.6.12",
-        "webpack": "^5.69.1"
+        "webpack": "^5.76.0"
     }
 }
