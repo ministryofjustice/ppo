@@ -1,0 +1,14 @@
+/**
+ * Custom styles for wp-admin
+ */
+
+.column-doc_thumb, th.column-doc_thumb {
+  text-align: center;
+}
+.column-doc_thumb img {
+  max-height: 100px;
+  max-width: 100px;
+  width: auto;
+  height: auto;
+  box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.3);
+}

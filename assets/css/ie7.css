@@ -1,0 +1,42 @@
+
+
+.input-group .form-control {
+    width: 71.5%!important;
+    height: 20px;
+}
+
+button.search-submit {
+    height: 34px;
+    margin-left: -7px;
+    margin-top: -2px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.tile-container article .tile-details {
+    width: 143px;
+}
+
+.tile-container article.fii-report {
+    margin: 5px 15px !important;
+}
+footer .row {
+	overflow: hidden;
+}
+
+footer .input-group .form-control {
+    width: 310px!important;
+
+}
+
+.navbar-nav > li.open > a,
+.navbar-nav > li.open > a:hover,
+.navbar-nav > li.open > a:focus,
+.navbar-nav > li.active > a,
+.navbar-nav > li.active > a:hover,
+.navbar-nav > li.active > a:focus,
+.navbar-nav > li > a,
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+    height: 114px;
+}

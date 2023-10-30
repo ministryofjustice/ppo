@@ -1,0 +1,36 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3075542, 2015-08-14T06:13:34-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: ProximaNova-Bold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/bold/
+ * Copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+ * Licensed pageviews: 1,000,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3075542
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+/*@import url("//hello.myfonts.net/count/2eedd6");*/
+
+  
+@font-face {
+    font-family: 'ProximaNova';
+    font-weight: bold;
+    font-style: normal;
+    src: url('2EEDD6_0_0.eot');
+    src: url('2EEDD6_0_0.eot?#iefix') format('embedded-opentype'),
+         url('2EEDD6_0_0.woff2') format('woff2'),
+         url('2EEDD6_0_0.woff') format('woff'),
+         url('2EEDD6_0_0.ttf') format('truetype');
+}

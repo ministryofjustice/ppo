@@ -1,0 +1,47 @@
+{
+    "name": "roots",
+    "version": "7.0.1",
+    "description": "This is a Bedrock based (https://roots.io/bedrock/) WordPress website for the PPO",
+    "author": "Ben Word <ben@benword.com>",
+    "homepage": "http://roots.io",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/roots/roots.git"
+    },
+    "bugs": {
+        "url": "https://github.com/roots/roots/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "scripts": {
+        "dev": "NODE_ENV=development webpack --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "NODE_ENV=development webpack --watch --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "production": "NODE_ENV=production webpack --progress --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "dependencies": {
+        "bootstrap": "^4.6.0",
+        "debounce": "^1.2.1",
+        "jquery": "^3.6.0",
+        "popper.js": "^1.16.1"
+    },
+    "devDependencies": {
+        "acorn": "^8.1.0",
+        "ajv": "^6.12.6",
+        "details-element-polyfill": "^2.4.0",
+        "laravel-mix": "^6.0.43",
+        "less": "^3.12.2",
+        "less-loader": "^7.1.0",
+        "marked": "^4.0.12",
+        "resolve-url-loader": "^3.1.2",
+        "scrollpoints": "^0.4.0",
+        "url-search-params-polyfill": "^8.1.1",
+        "vue-template-compiler": "^2.6.12",
+        "webpack": "^5.69.1"
+    }
+}
