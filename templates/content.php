@@ -38,9 +38,9 @@
 					$start = $offset - $padding;
 					$end = $offset + strlen( $string ) + $padding;
 					// Preserve whole words
-					while ( $start > 1 && preg_match( '/[A-Za-z0-9\'"-]/', $content{intval(round($start)) - 1} ) )
+					while ( $start > 1 && preg_match( '/[A-Za-z0-9\'"-]/', $content[intval(round($start)) - 1] ) )
 						$start--;
-					while ( $end < strlen( $content ) - 1 && preg_match( '/[A-Za-z0-9\'"-]/', $content{intval(round($end))} ) )
+					while ( $end < strlen( $content ) - 1 && preg_match( '/[A-Za-z0-9\'"-]/', $content[intval(round($end))] ) )
 						$end++;
 					$start = max( $start, $last_offset );
 					$context = substr( $content, $start, $end - $start );
@@ -58,7 +58,7 @@
 
 			if ( strlen( $output ) > $max_length ) {
 				$end = $max_length - 3;
-				while ( $end > 1 && preg_match( '/[A-Za-z0-9\'"-]/', $output{$end - 1} ) )
+				while ( $end > 1 && preg_match( '/[A-Za-z0-9\'"-]/', $output[$end - 1] ) )
 					$end--;
 				$output = substr( $output, 0, $end ) . '...';
 			}
