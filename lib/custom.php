@@ -537,7 +537,8 @@ remove_filter( 'pre_get_posts', 'cstmsrch_searchfilter' );
 
 // Temporary filter for convering dates to sort by
 function wdw_query_orderby_postmeta_date( $orderby ) {
-	$new_orderby = str_replace( "wp_postmeta.meta_value", "STR_TO_DATE(wp_postmeta.meta_value, '%d/%m/%Y')", $orderby );
+	global $wpdb;
+	$new_orderby = str_replace( $wpdb->prefix . "postmeta.meta_value", "STR_TO_DATE(" . $wpdb->prefix . "postmeta.meta_value, '%d/%m/%Y')", $orderby );
 	return $new_orderby;
 }
 
