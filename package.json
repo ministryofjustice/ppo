@@ -41,6 +41,6 @@
         "resolve-url-loader": "^3.1.2",
         "scrollpoints": "^0.4.0",
         "url-search-params-polyfill": "^8.1.1",
-        "webpack": "^5.88.0 <5.104.0"
+        "webpack": "^5.88.0 <5.107.0"
     }
 }
