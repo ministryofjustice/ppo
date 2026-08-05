@@ -20,6 +20,11 @@ class Roots_Wrapping {
   // Stores the base name of the template file; e.g. 'page' for 'page.php' etc.
   static $base;
 
+  // Declared explicitly: assigning undeclared properties is deprecated on PHP 8.2+.
+  public $slug;
+
+  public $templates;
+
   public function __construct($template = 'base.php') {
     $this->slug = basename($template, '.php');
     $this->templates = array($template);

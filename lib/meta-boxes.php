@@ -19,6 +19,11 @@ function get_template_pages( $template_name ) {
 }
 
 function custom_meta_boxes() {
+	// Requires the option-tree plugin.
+	if ( ! function_exists( 'ot_register_meta_box' ) ) {
+		return;
+	}
+
 	global $ppo_meta_boxes;
 	$admin_post_id = (filter_input( INPUT_GET, 'post' ) ? filter_input( INPUT_GET, 'post' ) : 0);
 

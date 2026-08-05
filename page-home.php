@@ -16,6 +16,7 @@
 	</div>
 
 	<?php $home_id = get_the_ID(); ?>
+	<?php if ( function_exists( 'ot_get_option' ) ) : // Requires the option-tree plugin. ?>
 	<div id="home-cta-container" class="container">
 		<div class="row">
 			<?php for ( $i = 1; $i <= 4; $i++ ) { ?>
@@ -38,6 +39,7 @@
 			<?php } ?>
 		</div>
 	</div>
+	<?php endif; ?>
 
 	<div class="col-md-6">
 		<div id="latest-publications" class="boxout">
